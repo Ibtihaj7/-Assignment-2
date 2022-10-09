@@ -11,6 +11,10 @@ I design these as interface:
 
 In the Entity class I declare private member with type of List<Object> I store all player and monster kinds.
 
+Now we can create any kind of player or monster and make them to implement any interface according to its own characteristics, like Player made it
+tow kind: PlayrtMover that implement Movable interface, and PlayerRender that implement MakeRender interface .so if I would to create new kind of monster :fast and stealth , I should make class for it and make the class implement Movable and MakeNoise interfaces.
+
 ## This is UML for my code and the class in red is the new monster :
 
-<img width="619" alt="Screen Shot 2022-10-09 at 19 58 18" src="https://user-images.githubusercontent.com/92644947/194769728-4fd41af1-cf75-4f1f-829d-5b4fde597fc5.png">
+
+<img width="545" alt="Screen Shot 2022-10-09 at 21 53 56" src="https://user-images.githubusercontent.com/92644947/194774501-94024c68-5721-4628-9abb-15a0e42aff89.png">
