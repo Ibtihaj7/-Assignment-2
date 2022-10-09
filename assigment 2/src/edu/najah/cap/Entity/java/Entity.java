@@ -8,11 +8,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Entity {
+
     private List<Object> list ;
 
     public Entity(){
         list = new ArrayList<>();
     }
+
     public List<Object> getList() {
         return list;
     }
@@ -29,7 +31,6 @@ public class Entity {
                 ((MakeRender) list1).render();
         }
     }
-
     public void makeNoise(){
         for(Object list1:list){
             if(list1 instanceof MakeNoise)
